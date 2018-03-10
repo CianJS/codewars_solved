@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
 
+'''
+| Card Type  | Begins With          | Number Length |
+|------------|----------------------|---------------|
+| AMEX       | 34 or 37             | 15            |
+| Discover   | 6011                 | 16            |
+| Mastercard | 51, 52, 53, 54 or 55 | 16            |
+| VISA       | 4                    | 13 or 16      |
+
+Write the function at looking the table above.
+'''
+
 import sys
 from .tester import credit_card_issuer_checking_test as test
 
