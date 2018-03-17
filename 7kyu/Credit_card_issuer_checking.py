@@ -11,6 +11,11 @@
 Write the function at looking the table above.
 '''
 
+import sys
+from .tester import credit_card_issuer_checking_test as test
+
+sys.path.append("C:/Python/Mymodules")
+
 def getIssuer(number):
     number = str(number)
     if len(number) == 15:
@@ -36,7 +41,6 @@ def getIssuer(number):
         return 'Unknown'
 
 if __name__ == "__main__":
-    from tester import credit_card_issuer_checking_test as test
     test.assert_equals(getIssuer(4111111111111111), 'VISA')
     test.assert_equals(getIssuer(378282246310005), 'AMEX')
     test.assert_equals(getIssuer(9111111111111111), 'Unknown')
