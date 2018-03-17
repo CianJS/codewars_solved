@@ -6,7 +6,7 @@ from .. import Credit_card_issuer_checking as main
 def assert_equals(function_result, credit):
     return function_result == credit
 
-class credit_card_checking_program(unittest.TestCase):
+class CheckCreditCardProgram(unittest.TestCase):
     def test_VISA(self):
         self.assertTrue(assert_equals(main.getIssuer(4329555890424166), 'VISA'))
         self.assertTrue(assert_equals(main.getIssuer(4329555890424166), 'VISA'))
@@ -119,6 +119,6 @@ class credit_card_checking_program(unittest.TestCase):
         self.assertTrue(assert_equals(main.getIssuer(6011002902710826), 'Discover'))
 
 if __name__ == "__main__":
-    test_case = credit_card_checking_program()
+    test_case = CheckCreditCardProgram()
     test_suite = unittest.TestLoader().loadTestsFromTestCase(test_case)
     unittest.TextTestRunner(verbosity=2).run(test_suite)
