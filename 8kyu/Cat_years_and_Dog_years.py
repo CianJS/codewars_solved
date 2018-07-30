@@ -32,6 +32,6 @@ def human_years_cat_years_dog_years(human_years):
     return [human_years,catYears,dogYears]
 
 if __name__ ==  "__main__":
-    human_years_cat_years_dog_years(1) # [1,15,15]
-    human_years_cat_years_dog_years(2) # [2,24,24]
-    human_years_cat_years_dog_years(10) # [10,56,64]
+    print(human_years_cat_years_dog_years(1) == [1,15,15])
+    print(human_years_cat_years_dog_years(2) == [2,24,24])
+    print(human_years_cat_years_dog_years(10) == [10,56,64])
