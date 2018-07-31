@@ -1,4 +1,4 @@
-codewars의 문제들을 푼 내용들을 정리해서 올리는 공간입니다.
+[codewars](https://www.codewars.com)의 문제들을 푼 내용들을 정리해서 올리는 공간입니다.
 
 The sturct of Repository
  - Kata(문제)들에는 난이도가 정해져있습니다.
