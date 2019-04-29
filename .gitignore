@@ -1,0 +1,5 @@
+*.pyc
+*.iml
+lib
+.idea/*
+.DS_Store%
