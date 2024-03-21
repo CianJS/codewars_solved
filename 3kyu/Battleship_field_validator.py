@@ -8,6 +8,7 @@ Each ship must be a straight line, except for submarines, which are just single 
 The ship cannot overlap, but can be contact with any other ship.
 """
 
+# broken logic
 def validate_battlefield(battleField):
     total_cell = 20
     positioning = []
